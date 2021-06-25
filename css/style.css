@@ -1,0 +1,353 @@
+.name{
+       border: 3px solid rgb(56, 55, 55);
+       width: 15%;
+       height: 40px;
+       color: rgba(48, 45, 45, 0.884);
+       text-align: center;
+       font-size: 25px;
+       border-radius: 3px;
+       -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+       -ms-border-radius: 3px;
+       -o-border-radius: 3px;
+}
+.Amargin{
+    margin-top: 2em;
+    margin-bottom: 30px;
+}
+.font{
+    font-size: 20px;
+}
+.heart{
+    position: absolute;
+    left: 86px;
+    top: 3px;
+    opacity: 0;
+}
+.heart:hover{
+          opacity: 100;
+}
+
+.position{
+    font-size: 15px;
+   list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+ ul li a{
+    color: rgb(51, 49, 49);
+}
+.firstDiv{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    position: relative;
+    top: 150px;
+    width: 800px;
+    height: 60%;
+}
+.font1{
+    position: relative;
+    top: 200px;
+    font-size: 45px;
+}
+.font2{
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+}
+.button{
+    position: relative;
+    top: 200px;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    background-color: blueviolet;
+    border-style: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.secanddiv{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+  padding: 50px 50px 150px 100px;
+  line-height: 30px;
+}
+
+.imgs{
+     position: relative;
+     width: 100%;
+     height: 100%;  
+     transition:all 1s ease ;
+     -webkit-transition:all 1s ease ;
+     -moz-transition:all 1s ease ;
+     -ms-transition:all 1s ease ;
+     -o-transition:all 1s ease ;   
+}
+.imgs:hover{
+                  transform: scale(1.2);
+                  -webkit-transform: scale(1.2);
+                  -moz-transform: scale(1.2);
+                  -ms-transform: scale(1.2);
+                  -o-transform: scale(1.2);
+}
+.box{
+     overflow: hidden;
+     height: 100%;
+     box-sizing: border-box;
+     margin-left: 30px;
+     z-index: 1;
+}
+
+.third{
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.third2{
+    height: 450px;
+    width: 25%;
+}
+/* .imgs::before{
+    content: 'amr ';
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient (to top, rgba(0, 0, 0, 0.897), transparent);
+} */
+.imgs::before{
+    content: ' ';
+    width: 100%;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to top, black, Transparent);
+}
+
+.txt{
+    position: absolute;
+    top: 1550px;
+    left: 240px;
+   z-index: 3;
+}
+.txt2{
+    position: absolute;
+    top: 1550px;
+    left: 630px;
+    z-index: 3;
+}
+.txt3{
+    position: absolute;
+    top: 1550px;
+    left: 1020px;
+    z-index: 3;
+}
+
+.fourth{
+              height: 800px;
+              margin-top: 50px;
+              background-color: rgba(216, 210, 210, 0.301);
+}
+.fourth1{
+    height: 800px;
+    margin-top: 50px;
+}
+.card-title{
+    color: rgb(148, 59, 148);
+}
+
+.lastdiv_img{
+    width: 100%;
+    height: 500px;
+}
+.text1{
+    box-sizing: border-box;
+padding-top:150px;
+padding-left: 50px;
+margin-left: 50px;
+margin-bottom: 150;
+}
+.shift{
+    box-sizing: border-box;
+    padding-left: 80px;
+     box-sizing: border-box;
+}
+.button1{
+    box-sizing: border-box;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    background-color: blueviolet;
+    border-style: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.last{
+    box-sizing: border-box;
+    height: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.last1{
+   list-style: none;
+   line-height: 40px;
+}
+.last-li{
+         color: rgba(7, 6, 6, 0.692);
+         font-size: 20px;
+         padding-top: 25px;
+         border: 1px solid rgba(53, 51, 51, 0.61);
+         height: 50px;
+         border-radius: 4px;
+         
+}
+.lastdiv{
+    position: relative;
+    bottom: 24px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+.lastbuttom{
+    position: relative;
+    right: 1px;
+    color: rgba(241, 233, 241, 0.678);
+    background-color: rgba(115, 12, 184, 0.918);
+    font-size: 16px;
+    border-style: none;
+    width: 80px;
+    height: 46px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* 
+========================================
+about page
+========================================
+*/
+.breadcrumb{
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 100px;
+    height: 70px;
+}
+.about_img{
+    width: 85%;
+    height: 400px;
+    margin: 140px 100px;
+}
+.about_secandDiv{
+     margin: 140px ;
+}
+.sec1{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 20px;
+}
+/* 
+======================================
+ Shop page    -    Main section
+======================================
+*/
+.main-section{
+    box-sizing: border-box;
+    padding: 100px;
+}
+.main-section2{
+    margin-left: 30px;
+}
+button{
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+button:hover{
+                  background-color: gray;
+                  outline: none;
+                  z-index: 2;
+                  transform:translateY(-5px);
+                  -webkit-transform:translateY(-5px);
+                  -moz-transform:translateY(-5px);
+                  -ms-transform:translateY(-5px);
+                  -o-transform:translateY(-5px);
+}
+
+
+/* 
+=======================================
+T-shirt page
+*/
+.T-img{
+    box-sizing: border-box;
+margin-left: 100px;
+margin-top: 80px;
+}
+.img-T{
+    width: 85%;
+    height: 400px;
+}
+.p2 {
+    margin-top: 80px;
+}
+.border1{
+    margin-top: 45px;
+    border: 1px solid rgba(58, 55, 55, 0.719);
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.bt1{
+    height: 44px;
+    width: 50px;
+}
+.btn1{
+    width: 175px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    border-style: none;
+    outline: 0px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: #512da8 ;
+}
