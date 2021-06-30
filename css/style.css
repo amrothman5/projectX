@@ -428,3 +428,10 @@ margin-top: 80px;
        -ms-border-radius: 5px;
        -o-border-radius: 5px;
 }
+.table td, .table th{
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    width: 202px;
+}
